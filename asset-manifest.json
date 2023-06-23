@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boscotsav2k23/static/css/main.247bc832.css",
-    "main.js": "/boscotsav2k23/static/js/main.546661bb.js",
+    "main.js": "/boscotsav2k23/static/js/main.ded03a31.js",
     "static/js/787.441e3823.chunk.js": "/boscotsav2k23/static/js/787.441e3823.chunk.js",
     "static/media/flexvid.mp4": "/boscotsav2k23/static/media/flexvid.91f6816f9a1078764e2f.mp4",
     "static/media/gallery.webp": "/boscotsav2k23/static/media/gallery.30bccf7db39afac5829e.webp",
@@ -162,11 +162,11 @@
     "static/media/concert2.jpg": "/boscotsav2k23/static/media/concert2.e804b5b97374b7a5b837.jpg",
     "index.html": "/boscotsav2k23/index.html",
     "main.247bc832.css.map": "/boscotsav2k23/static/css/main.247bc832.css.map",
-    "main.546661bb.js.map": "/boscotsav2k23/static/js/main.546661bb.js.map",
+    "main.ded03a31.js.map": "/boscotsav2k23/static/js/main.ded03a31.js.map",
     "787.441e3823.chunk.js.map": "/boscotsav2k23/static/js/787.441e3823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.247bc832.css",
-    "static/js/main.546661bb.js"
+    "static/js/main.ded03a31.js"
   ]
 }
