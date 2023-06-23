@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3582bcb7.css",
-    "main.js": "/static/js/main.d9d147ac.js",
-    "static/js/27.0149ec72.chunk.js": "/static/js/27.0149ec72.chunk.js",
+    "main.css": "/static/css/main.bad873fc.css",
+    "main.js": "/static/js/main.3b49d5c4.js",
+    "static/js/787.441e3823.chunk.js": "/static/js/787.441e3823.chunk.js",
     "static/media/flexvid.mp4": "/static/media/flexvid.91f6816f9a1078764e2f.mp4",
     "static/media/gallery.webp": "/static/media/gallery.30bccf7db39afac5829e.webp",
     "static/media/DSC_0392.JPG": "/static/media/DSC_0392.f440395cbb00bce1c20f.JPG",
@@ -160,10 +160,13 @@
     "static/media/DSC_0271.webp": "/static/media/DSC_0271.c04a08abf10e649f7afd.webp",
     "static/media/concert3.jpg": "/static/media/concert3.d3c141b7ea131263e5e9.jpg",
     "static/media/concert2.jpg": "/static/media/concert2.e804b5b97374b7a5b837.jpg",
-    "index.html": "/index.html"
+    "index.html": "/index.html",
+    "main.bad873fc.css.map": "/static/css/main.bad873fc.css.map",
+    "main.3b49d5c4.js.map": "/static/js/main.3b49d5c4.js.map",
+    "787.441e3823.chunk.js.map": "/static/js/787.441e3823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3582bcb7.css",
-    "static/js/main.d9d147ac.js"
+    "static/css/main.bad873fc.css",
+    "static/js/main.3b49d5c4.js"
   ]
 }
