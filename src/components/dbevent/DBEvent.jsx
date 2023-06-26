@@ -86,7 +86,7 @@ const DBEvent = ({currentPage}) => {
 
 
           <div>
-            <Link to={`/events`}><button className="button">Back</button></Link>
+            <Link to={`/boscotsav2k23/events`}><button className="button">Back</button></Link>
           </div>
         </div>
       );
