@@ -6,12 +6,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/boscotsav2k23/" element={<Home />} />
-        <Route path="/boscotsav2k23/events/*" element={<Events />} />
-        <Route path="/boscotsav2k23/about" element={<About />} />
-        <Route path="/boscotsav2k23/contacts" element={<Service />} />
-        <Route path="/boscotsav2k23/gallery" element={<Gallery />} />
-        <Route path="/boscotsav2k23/events/:eventName" element={<DBEvent/>} />
+        <Route path="//" element={<Home />} />
+        <Route path="events/*" element={<Events />} />
+        <Route path="about" element={<About />} />
+        <Route path="contacts" element={<Service />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="events/:eventName" element={<DBEvent/>} />
       </Routes>
     </BrowserRouter>
   )
