@@ -7,8 +7,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="//" element={<Home />} />
-        <Route path="events/*" element={<Events />} />
-        <Route path="about" element={<About />} />
+        <Route path="boscotsav2k23/events/*" element={<Events />} />
+        <Route path="boscotsav2k23/about" element={<About />} />
         <Route path="contacts" element={<Service />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="events/:eventName" element={<DBEvent/>} />
