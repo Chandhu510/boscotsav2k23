@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/boscotsav2k23/static/css/main.ac68701d.css",
-    "main.js": "/boscotsav2k23/static/js/main.0c0730dd.js",
+    "main.css": "/boscotsav2k23/static/css/main.57c4a363.css",
+    "main.js": "/boscotsav2k23/static/js/main.b9533151.js",
     "static/js/787.441e3823.chunk.js": "/boscotsav2k23/static/js/787.441e3823.chunk.js",
     "static/media/gallery.webp": "/boscotsav2k23/static/media/gallery.30bccf7db39afac5829e.webp",
     "static/media/DSC_0392.JPG": "/boscotsav2k23/static/media/DSC_0392.f440395cbb00bce1c20f.JPG",
@@ -160,12 +160,12 @@
     "static/media/concert3.jpg": "/boscotsav2k23/static/media/concert3.d3c141b7ea131263e5e9.jpg",
     "static/media/concert2.jpg": "/boscotsav2k23/static/media/concert2.e804b5b97374b7a5b837.jpg",
     "index.html": "/boscotsav2k23/index.html",
-    "main.ac68701d.css.map": "/boscotsav2k23/static/css/main.ac68701d.css.map",
-    "main.0c0730dd.js.map": "/boscotsav2k23/static/js/main.0c0730dd.js.map",
+    "main.57c4a363.css.map": "/boscotsav2k23/static/css/main.57c4a363.css.map",
+    "main.b9533151.js.map": "/boscotsav2k23/static/js/main.b9533151.js.map",
     "787.441e3823.chunk.js.map": "/boscotsav2k23/static/js/787.441e3823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac68701d.css",
-    "static/js/main.0c0730dd.js"
+    "static/css/main.57c4a363.css",
+    "static/js/main.b9533151.js"
   ]
 }
