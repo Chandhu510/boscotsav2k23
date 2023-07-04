@@ -11,7 +11,7 @@ const About = () => {
             <Countdown/>
             <div className="bt_about-sec2">
                 <div className="bt_about-sec2-video">
-                    <ReactPlayer url={"https://www.youtube.com/watch?v=huGWrrX_s6I"} controls={true} min-width="100%"/>
+                    <ReactPlayer url={"https://www.youtube.com/watch?v=huGWrrX_s6I"} controls={true} min-width="90%" width="90%"/>
                 </div>
                 
                 <div className="bt_about-quote">

@@ -19,11 +19,6 @@
     text-align: center;
 }
 
-.break{
-    
-}
-
-
 .bt_countdown .highlighter{
     font-size: 40px;
 }
@@ -68,9 +63,12 @@
     letter-spacing: 1px;
     word-spacing: 5px;
 }
+.bt_about-sec2-video{
+    width: 100%;
+}
 
 @media screen and (max-width: 880px) {
-    .bt_countdown{
+    .bt_countdown, .bt_about-sec2{
         width: 600px;
         gap: 10px;
     }
@@ -113,7 +111,9 @@
         flex: 1;
         margin-top: 5rem;
     }
-
+    .bt_about-sec2{
+        width:400px;
+    }
     .bt_countdown_container{
         width: 100%;
         display: flexbox;

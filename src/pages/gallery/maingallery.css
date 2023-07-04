@@ -46,3 +46,21 @@
     color: var(--color-white);
     font-size: 18px;
 }
+.bt_maingallery-video{
+    width: 700px;
+} 
+@media screen and (max-width: 880px) {
+    .bt_maingallery-video{
+        width: 600px;
+        gap: 10px;
+    }
+
+    
+}
+@media screen and (max-width: 425px) {
+    
+    .bt_maingallery-video{
+        width:400px;
+    }    
+
+}
