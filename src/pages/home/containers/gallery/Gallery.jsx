@@ -24,7 +24,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <p>Take me to <Link to={`/gallery`}><b className="highlighter">Gallery &#8689;</b></Link> </p>
+      <p>Take me to <Link to={`/boscotsav2k23/gallery`}><b className="highlighter">Gallery &#8689;</b></Link> </p>
     </div>
   );
 };

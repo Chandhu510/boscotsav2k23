@@ -29,12 +29,12 @@ const Navbar = () => {
   const hammenu = () => {
     return (<div className="hammenu-links">
         <ul className="hammenu-links-ul">
-            <Link to="/" style={styles2}><li>Home</li></Link>
-            <Link to="/events" style={styles2}><li>Events</li></Link>
-            <Link to="/contacts" style={styles2}><li>Contacts</li></Link>
-            <Link to="/gallery" style={styles2}><li>Gallery</li></Link>
-            <Link to="/about"  style={styles2}><li>About</li></Link>
-            <Link to="/teams"  style={styles2}><li>Tech Committee</li></Link>           
+            <Link to="/boscotsav2k23/" style={styles2}><li>Home</li></Link>
+            <Link to="/boscotsav2k23/events" style={styles2}><li>Events</li></Link>
+            <Link to="/boscotsav2k23/contacts" style={styles2}><li>Contacts</li></Link>
+            <Link to="/boscotsav2k23/gallery" style={styles2}><li>Gallery</li></Link>
+            <Link to="/boscotsav2k23/about"  style={styles2}><li>About</li></Link>
+            <Link to="/boscotsav2k23/teams"  style={styles2}><li>Tech Committee</li></Link>           
           </ul>
     </div>)
   };
@@ -62,12 +62,12 @@ const Navbar = () => {
 
         <div className="bt_navbar-menu">
         <ul className="bt_navbar-menu-list">
-          <Link to="/" style={styles}><li>Home</li></Link>
-            <Link to="/events" style={styles}><li>Events</li></Link>
-            <Link to="/contacts" style={styles}><li>Contacts</li></Link>
-            <Link to="/gallery" style={styles}><li>Gallery</li></Link>
-            <Link to="/about" style={styles}><li>About</li></Link>
-            <Link to="/teams"  style={styles}> <button className="button"><li>Tech Committee</li></button></Link>
+          <Link to="/boscotsav2k23/" style={styles}><li>Home</li></Link>
+            <Link to="/boscotsav2k23/events" style={styles}><li>Events</li></Link>
+            <Link to="/boscotsav2k23/contacts" style={styles}><li>Contacts</li></Link>
+            <Link to="/boscotsav2k23/gallery" style={styles}><li>Gallery</li></Link>
+            <Link to="/boscotsav2k23/about" style={styles}><li>About</li></Link>
+            <Link to="/boscotsav2k23/teams"  style={styles}> <button className="button"><li>Tech Committee</li></button></Link>
           </ul>
         </div>
 

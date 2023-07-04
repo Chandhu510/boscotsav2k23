@@ -23,7 +23,7 @@ const Events = () => {
   const location = useLocation();
   const handleEventClick = (eventName) => {
     setPreviousPage(currentPage); // Store the current page number
-    navigate(`/events/${eventName}`, { state: { previousPage } });
+    navigate(`/boscotsav2k23/events/${eventName}`, { state: { previousPage } });
   };
 
   const handleSearchChange = (event) => {
@@ -47,7 +47,7 @@ const Events = () => {
       const eventsToDisplay = events.slice(startIndex, endIndex);
 
       return eventsToDisplay.map((event) => (
-        <Link to={`/events/${event.name}`} key={event.name} style={styles} onClick={() => handleEventClick(event.name)}>
+        <Link to={`/boscotsav2k23/events/${event.name}`} key={event.name} style={styles} onClick={() => handleEventClick(event.name)}>
           <DbImageEvent name={event.name} logo={event.logo}/>
         </Link>
       ));

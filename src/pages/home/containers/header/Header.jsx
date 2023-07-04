@@ -20,7 +20,7 @@ const Header = () => {
               </h2>
             </div>
             <div className="bt_header-learnmore">
-                <Link to={`/about`}><button className="button">LEARN MORE</button></Link>
+                <Link to={`/boscotsav2k23/about`}><button className="button">LEARN MORE</button></Link>
             </div>
         </div>
         <div className="balls"></div>
