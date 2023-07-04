@@ -17,10 +17,11 @@ const styles2 = {
 };
 
 
+
 const Navbar = () => {
   
   const [isOpen, setOpen] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 814);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 945);
   const handleClick = () => {
     setOpen(!isOpen);
   };
@@ -28,11 +29,12 @@ const Navbar = () => {
   const hammenu = () => {
     return (<div className="hammenu-links">
         <ul className="hammenu-links-ul">
-            <Link to="/boscotsav2k23/" style={styles2}><li>Home</li></Link>
-            <Link to="/boscotsav2k23/events" style={styles2}><li>Events</li></Link>
-            <Link to="/boscotsav2k23/contacts" style={styles2}><li>Contact Us</li></Link>
-            <Link to="/boscotsav2k23/gallery" style={styles2}><li>Gallery</li></Link>
-            <Link to="/boscotsav2k23/about"  style={styles2}><li>About Us</li></Link>
+            <Link to="/" style={styles2}><li>Home</li></Link>
+            <Link to="/events" style={styles2}><li>Events</li></Link>
+            <Link to="/contacts" style={styles2}><li>Contacts</li></Link>
+            <Link to="/gallery" style={styles2}><li>Gallery</li></Link>
+            <Link to="/about"  style={styles2}><li>About</li></Link>
+            <Link to="/teams"  style={styles2}><li>Tech Committee</li></Link>           
           </ul>
     </div>)
   };
@@ -40,7 +42,7 @@ const Navbar = () => {
   useEffect(() => {
     // Update 'isDesktop' state on window resize
     const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 814);
+      setIsDesktop(window.innerWidth >= 945);
     };
 
   window.addEventListener('resize', handleResize);
@@ -60,11 +62,12 @@ const Navbar = () => {
 
         <div className="bt_navbar-menu">
         <ul className="bt_navbar-menu-list">
-          <Link to="/boscotsav2k23/" style={styles}><li>Home1</li></Link>
-            <Link to="/boscotsav2k23/events" style={styles}><li>Events</li></Link>
-            <Link to="/boscotsav2k23/contacts" style={styles}><li>Contact Us</li></Link>
-            <Link to="/boscotsav2k23/gallery" style={styles}><li>Gallery</li></Link>
-            <Link to="/boscotsav2k23/about" style={styles}><li>About Us</li></Link>
+          <Link to="/" style={styles}><li>Home</li></Link>
+            <Link to="/events" style={styles}><li>Events</li></Link>
+            <Link to="/contacts" style={styles}><li>Contacts</li></Link>
+            <Link to="/gallery" style={styles}><li>Gallery</li></Link>
+            <Link to="/about" style={styles}><li>About</li></Link>
+            <Link to="/teams"  style={styles}> <button className="button"><li>Tech Committee</li></button></Link>
           </ul>
         </div>
 

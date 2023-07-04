@@ -2,7 +2,7 @@ import React, {StyleSheets} from 'react'
 import './about.css';
 import {Countdown} from '../../../../components';
 import {concert1, concert2, concert3} from '../../../../assets';
-import flexvid from '../../../../assets/flexvid.mp4';
+//import flexvid from '../../../../assets/flexvid.mp4';
 import ReactPlayer from 'react-player';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
             <Countdown/>
             <div className="bt_about-sec2">
                 <div className="bt_about-sec2-video">
-                <ReactPlayer url={flexvid} controls={true} width="90%"/>
+                    <ReactPlayer url={"https://www.youtube.com/watch?v=rOGigSDHSp0"} controls={true} width="90%"/>
                 </div>
                 
                 <div className="bt_about-quote">

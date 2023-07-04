@@ -25,7 +25,7 @@ const Events = () => {
               <Event date="I" image={westdance} title="Western Dance" venue="St.John Paul II Auditorium"/>
               <Event date="II" image={grooves} title="Bosco Grooves" venue="St.John Paul II Auditorium"/>
               <Event date="III" image={pulse} title="Bosco Pulse" venue="St.John Paul II Auditorium"/>
-              <p>Take me to <b className="highlighter"><Link to={`/boscotsav2k23/events`}>Events &#10169;</Link></b> </p>
+              <p>Take me to <b className="highlighter"><Link to={`/events`}>Events &#10169;</Link></b> </p>
           </div>
 
           

@@ -15,7 +15,6 @@ export {default as twitter} from './icons/twitter.png';
 export {default as fb} from './icons/facebook.png';
 export {default as yt} from './icons/youtube.png';
 
-
 export {default as westdance} from './gallery/DSC_0607.JPG';
 export {default as grooves} from './gallery/DSC_0555.JPG';
 export {default as pulse} from './gallery/DSC_0392.JPG';

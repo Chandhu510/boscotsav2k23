@@ -17,13 +17,13 @@ const Events = () => {
   const [events, setEvents] = useState(jsonData.events);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
+  const [previousPage, setPreviousPage] = useState(1);
   const { eventName } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-
   const handleEventClick = (eventName) => {
-    const previousPage = currentPage; // Store the current page number
-    navigate(`/boscotsav2k23/events/${eventName}`, { state: { previousPage } });
+    setPreviousPage(currentPage); // Store the current page number
+    navigate(`/events/${eventName}`, { state: { previousPage } });
   };
 
   const handleSearchChange = (event) => {
@@ -35,7 +35,7 @@ const Events = () => {
       event.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setEvents(filteredEvents);
-    setCurrentPage(1);
+    setCurrentPage(previousPage);
   }, [searchTerm]);
 
   const renderEvents = () => {
@@ -47,8 +47,8 @@ const Events = () => {
       const eventsToDisplay = events.slice(startIndex, endIndex);
 
       return eventsToDisplay.map((event) => (
-        <Link to={`/boscotsav2k23/events/${event.name}`} key={event.name} style={styles} onClick={() => handleEventClick(event.name)}>
-          <DbImageEvent name={event.name} />
+        <Link to={`/events/${event.name}`} key={event.name} style={styles} onClick={() => handleEventClick(event.name)}>
+          <DbImageEvent name={event.name} logo={event.logo}/>
         </Link>
       ));
     }
@@ -67,6 +67,7 @@ const Events = () => {
   };
 
   useEffect(() => {
+    console.log(navigate);
     const previousPage = location.state?.previousPage || 1; // Retrieve the previous page number from location state
     setCurrentPage(previousPage);
   }, [location]);
@@ -78,7 +79,7 @@ const Events = () => {
         <input type="text" placeholder="Search events" value={searchTerm} onChange={handleSearchChange} />
       </div>
       <Routes>
-        <Route path="/boscotsav2k23/events/:eventName" element={<DBEvent urlPage={currentPage} />} />
+        <Route path="/events/:eventName" element={<DBEvent urlPage={currentPage} />} />
       </Routes>
       <EventsMap />
       <div className="pagination-features">
