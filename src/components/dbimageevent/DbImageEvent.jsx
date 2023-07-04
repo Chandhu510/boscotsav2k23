@@ -12,7 +12,7 @@ const DbImageEvent = ({name, logo}) => {
             <div className="image-container">
                 <div className="image-wrapper">
                     <div className="image-inner">
-                        <img src={`${logo}`}/>
+                        <img src={`/boscotsav2k23${logo}`}/>
                     </div>
                 </div>
             </div>

@@ -41,7 +41,7 @@ const MainGallery = () => {
     <div className="bt_maingallery">
       <PageComponent breadcrumb="Home/Gallery" name="Gallery" />
       <div className="bt_maingallery-video">
-        <ReactPlayer url={"https://www.youtube.com/watch?v=huGWrrX_s6I"} controls={true} width="90%"/>
+        <ReactPlayer url={"https://www.youtube.com/watch?v=rOGigSDHSp0"} controls={true} min-width="100%"/>
       </div>
       <div className="bt_maingallery-pic">
         {galleryImages.map((image, index) => (
