@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/boscotsav2k23/static/css/main.247bc832.css",
-    "main.js": "/boscotsav2k23/static/js/main.b927b639.js",
+    "main.css": "/boscotsav2k23/static/css/main.ac68701d.css",
+    "main.js": "/boscotsav2k23/static/js/main.5af31805.js",
     "static/js/787.441e3823.chunk.js": "/boscotsav2k23/static/js/787.441e3823.chunk.js",
-    "static/media/flexvid.mp4": "/boscotsav2k23/static/media/flexvid.91f6816f9a1078764e2f.mp4",
     "static/media/gallery.webp": "/boscotsav2k23/static/media/gallery.30bccf7db39afac5829e.webp",
     "static/media/DSC_0392.JPG": "/boscotsav2k23/static/media/DSC_0392.f440395cbb00bce1c20f.JPG",
+    "static/media/concert.jpg": "/boscotsav2k23/static/media/concert.f29a91f57efe6c812180.jpg",
     "static/media/DSC_0555.JPG": "/boscotsav2k23/static/media/DSC_0555.49c4a89f0220ecda8d99.JPG",
     "static/media/poster.jpg": "/boscotsav2k23/static/media/poster.f05a6e23008a4bb7abf0.jpg",
     "static/media/DSC_0332.JPG": "/boscotsav2k23/static/media/DSC_0332.e824043751431be910b2.JPG",
@@ -25,7 +25,6 @@
     "static/media/DSC_0506.webp": "/boscotsav2k23/static/media/DSC_0506.996fb55bbf2ccae80582.webp",
     "static/media/DSC_0510 (1).webp": "/boscotsav2k23/static/media/DSC_0510 (1).28cf4ad45c9a66efbac8.webp",
     "static/media/DSC_0510.webp": "/boscotsav2k23/static/media/DSC_0510.28cf4ad45c9a66efbac8.webp",
-    "static/media/concert.jpg": "/boscotsav2k23/static/media/concert.d96ca2a0b17a04c6a455.jpg",
     "static/media/DSC_0307.webp": "/boscotsav2k23/static/media/DSC_0307.598b4a93cbaab140ca0d.webp",
     "static/media/DSC_0400.webp": "/boscotsav2k23/static/media/DSC_0400.06f8e0f210bbd45dc16b.webp",
     "static/media/DSC_0323.webp": "/boscotsav2k23/static/media/DSC_0323.0c9ae3c6d8654e85a8f9.webp",
@@ -161,12 +160,12 @@
     "static/media/concert3.jpg": "/boscotsav2k23/static/media/concert3.d3c141b7ea131263e5e9.jpg",
     "static/media/concert2.jpg": "/boscotsav2k23/static/media/concert2.e804b5b97374b7a5b837.jpg",
     "index.html": "/boscotsav2k23/index.html",
-    "main.247bc832.css.map": "/boscotsav2k23/static/css/main.247bc832.css.map",
-    "main.b927b639.js.map": "/boscotsav2k23/static/js/main.b927b639.js.map",
+    "main.ac68701d.css.map": "/boscotsav2k23/static/css/main.ac68701d.css.map",
+    "main.5af31805.js.map": "/boscotsav2k23/static/js/main.5af31805.js.map",
     "787.441e3823.chunk.js.map": "/boscotsav2k23/static/js/787.441e3823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.247bc832.css",
-    "static/js/main.b927b639.js"
+    "static/css/main.ac68701d.css",
+    "static/js/main.5af31805.js"
   ]
 }
