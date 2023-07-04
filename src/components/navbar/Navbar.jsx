@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <div className="bt_navbar-menu">
         <ul className="bt_navbar-menu-list">
-          <Link to="/boscotsav2k23/" style={styles}><li>Home</li></Link>
+          <Link to="/boscotsav2k23/" style={styles}><li>Home1</li></Link>
             <Link to="/boscotsav2k23/events" style={styles}><li>Events</li></Link>
             <Link to="/boscotsav2k23/contacts" style={styles}><li>Contact Us</li></Link>
             <Link to="/boscotsav2k23/gallery" style={styles}><li>Gallery</li></Link>
